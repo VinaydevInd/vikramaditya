@@ -23,7 +23,7 @@ ollama>=0.2.0
 
 # ── Core dependencies ─────────────────────────────────────────────────────────
 httpx>=0.27.0
-requests>=2.32.4 # used for vulnerablity fixing
+requests>=2.33.1 # used for vulnerablity fixing
 python-dateutil>=2.8.2
 
 # ── Report PDF export (optional, system package) ─────────────────────────────
