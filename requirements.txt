@@ -12,9 +12,7 @@ ollama>=0.2.0
 # openai>=1.30.0
 
 # Grok API (xAI) — grok-2-latest, grok-3-mini, etc.
-# Set: export XAI_API_KEY=xai-...
- 
-requests>=2.32.4   # used for vulnerablity fixing
+# Set: export XAI_API_KEY=xai-.
 
 # Optional LangGraph backend for agent.py
 # pip install langgraph langchain-ollama langchain-core
@@ -25,7 +23,7 @@ requests>=2.32.4   # used for vulnerablity fixing
 
 # ── Core dependencies ─────────────────────────────────────────────────────────
 httpx>=0.27.0
-requests>=2.31.0
+requests>=2.32.4 # used for vulnerablity fixing
 python-dateutil>=2.8.2
 
 # ── Report PDF export (optional, system package) ─────────────────────────────
